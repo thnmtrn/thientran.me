@@ -1,0 +1,19 @@
+{
+  "button": {
+    "about": "About",
+    "back": "Back",
+    "go": "GO",
+    "home": "Home",
+    "blog": "Blog",
+    "projects": "Projects",
+    "toggle_dark": "Toggle Dark Mode",
+    "toggle_langs": "Change languages"
+  },
+  "intro": {
+    "desc": "guy on the internet",
+    "dynamic-route": "Demo of dynamic route",
+    "hi": "Hi, {name}!",
+    "whats-your-name": "What's your name?"
+  },
+  "not-found": "Not found"
+}

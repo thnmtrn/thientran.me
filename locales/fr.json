@@ -1,0 +1,19 @@
+{
+  "button": {
+    "about": "À propos de",
+    "back": "Retour",
+    "go": "Essayer",
+    "home": "Maison",
+    "blog": "Blog",
+    "projects": "Projects",
+    "toggle_dark": "Basculer en mode sombre",
+    "toggle_langs": "Changer de langue"
+  },
+  "intro": {
+    "desc": "mec sur internet",
+    "dynamic-route": "Démo de route dynamique",
+    "hi": "Salut, {name} !",
+    "whats-your-name": "Comment t'appelles-tu ?"
+  },
+  "not-found": "Page non trouvée"
+}

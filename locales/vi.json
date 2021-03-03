@@ -1,0 +1,16 @@
+{
+  "button": {
+    "about": "소개",
+    "back": "Quay lại",
+    "go": "Đi",
+    "blog": "Blog",
+    "projects": "Projects"
+  },
+  "intro": {
+    "desc": "anh chàng trên internet",
+    "dynamic-route": "Bản giới thiệu về dynamic route",
+    "hi": "Hi, {name}!",
+    "whats-your-name": "Tên bạn là gì?"
+  },
+  "not-found": "Không tìm thấy"
+}

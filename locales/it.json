@@ -1,0 +1,19 @@
+{
+  "button": {
+    "about": "Su di me",
+    "back": "Indietro",
+    "go": "Vai",
+    "home": "Home",
+    "blog": "Blog",
+    "projects": "Projects",
+    "toggle_dark": "Attiva/disattiva modalità scura",
+    "toggle_langs": "Cambia lingua"
+  },
+  "intro": {
+    "desc": "ragazzo su Internet",
+    "dynamic-route": "Demo di rotta dinamica",
+    "hi": "Ciao, {name}!",
+    "whats-your-name": "Come ti chiami?"
+  },
+  "not-found": "Non trovato"
+}
