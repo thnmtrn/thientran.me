@@ -1,27 +1,25 @@
 <script setup lang="ts">
-import { isDark } from '/~/logics'
+import { isDark } from '/~/logics';
 </script>
 
 <template>
   <header class="header">
-
-        <router-link
+    <router-link
       class="w-10 h-10 absolute lg:fixed m-6 select-none outline-none"
       to="/"
       focusable="false"
     >
       <div>
-        <mdi-alpha-t-box v-show="isDark" class="w-12 h-12"/>
+        <mdi-alpha-t-box v-show="isDark" class="w-12 h-12" />
 
-        <mdi-alpha-t-box-outline v-show="!isDark" class="w-12 h-12"/>
+        <mdi-alpha-t-box-outline v-show="!isDark" class="w-12 h-12" />
       </div>
-
     </router-link>
     <nav class="nav">
       <div class="spacer" />
       <div class="right">
         <router-link to="/posts">
-          <ion-journal-outline/>
+          <ion-journal-outline />
         </router-link>
         <router-link to="/projects">
           <mdi-folder-open />
@@ -33,15 +31,26 @@ import { isDark } from '/~/logics'
         <router-link to="/notes" title="Notes">
           <ri-sticky-note-line />
         </router-link>
-        <a href="https://twitter.com/thnmtrn" target="_blank" title="Twitter" class="hidden md:block">
+        <a
+          href="https://twitter.com/thnmtrn"
+          target="_blank"
+          title="Twitter"
+          class="hidden md:block"
+        >
           <feather-twitter />
         </a>
-        <a href="https://github.com/thnmtrn" target="_blank" title="GitHub" class="hidden md:block">
+        <a
+          href="https://github.com/thnmtrn"
+          target="_blank"
+          title="GitHub"
+          class="hidden md:block"
+        >
           <uil-github-alt />
         </a>
         <a href="/feed.xml" target="_blank" title="RSS" class="hidden md:block">
-          <la-rss-square style="font-size:1.25rem; margin: 0 -0.125rem;" />
+          <la-rss-square style="font-size: 1.25rem; margin: 0 -0.125rem" />
         </a>
+
         <toggle-theme />
       </div>
     </nav>

@@ -1,7 +1,7 @@
 ---
 title: Destructuring... with object or array?
 description: Prefer object destructure or array? Can we support both?
-lang: zh
+tag: tech
 date: 2020-10-21T16:00:00.000Z
 duration: 8min
 image: '/images/destructuring.png'

@@ -11,11 +11,11 @@ import { useHead } from '@vueuse/head'
 
 useHead({
   meta: [
-    { property: 'og:title', content: 'Anthony Fu' },
-    { property: 'og:image', content: 'https://antfu.me/avatar.png' },
-    { name: 'description', content: 'Anthony Fu\'s Portfolio' },
+    { property: 'og:title', content: 'Thien Tran' },
+    { property: 'og:image', content: 'https://thientran.me/avatar.png' },
+    { name: 'description', content: 'Thien Tran\'s Portfolio' },
     { name: 'twitter:card', content: 'summary' },
-    { name: 'twitter:creator', content: '@antfu7' },
+    { name: 'twitter:creator', content: '@thnmtrn' },
   ],
 })
 </script>
