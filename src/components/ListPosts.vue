@@ -3,7 +3,7 @@ import { ref, computed } from 'vue';
 import { useRouter } from 'vue-router';
 import { formatDate } from '/~/logics';
 
-const tag = ref('en');
+const tag = ref('tech');
 const router = useRouter();
 const routes = router
   .getRoutes()
@@ -22,7 +22,7 @@ const posts = computed(() =>
 
 <template>
   <h3 class=''>#tags</h3>
-  <div class="tag">
+  <div class="">
     <span
       class="opacity-50 mr-2 cursor-default text-normal"
       :class="{ 'opacity-100': tag === 'tech' }"

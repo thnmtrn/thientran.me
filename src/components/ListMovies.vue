@@ -1,17 +1,17 @@
 <script setup lang="ts">
 import { defineProps } from 'vue'
 
-const { projects } = defineProps<{ projects: any }>()
+const { movies } = defineProps<{ movies: any }>()
 </script>
 
 <template>
-  <template v-for="key in Object.keys(projects)" :key="key">
+  <template v-for="key in Object.keys(movies)" :key="key">
     <h4 class="mt-10 font-bold">
       {{ key }}
     </h4>
-    <div class="project-grid py-2 -mx-3 gap-2">
+    <div class="movie-grid py-2 -mx-3 gap-2">
       <a
-        v-for="item, idx in projects[key]"
+        v-for="item, idx in movies[key]"
         :key="idx"
         class="item relative flex"
         :href="item.link"
@@ -39,7 +39,7 @@ const { projects } = defineProps<{ projects: any }>()
 </template>
 
 <style lang="postcss" scoped>
-.project-grid {
+.movie-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 

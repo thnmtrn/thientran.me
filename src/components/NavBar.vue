@@ -28,7 +28,13 @@ import { isDark } from '/~/logics';
         <router-link to="/bookmarks" title="Bookmarks">
           <ri-bookmark-line />
         </router-link>
-        <router-link to="/notes" title="Notes">
+        <router-link to="/movies" title="movies">
+          <mdi-movie-open-outline />
+        </router-link>
+        <router-link to="/books" title="Books">
+          <mdi-bookshelf />
+        </router-link>
+        <router-link to="/notes" title="notes">
           <ri-sticky-note-line />
         </router-link>
         <a

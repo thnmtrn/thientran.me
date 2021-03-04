@@ -1,26 +1,14 @@
 ---
-title: Projects - Thien Tran
-display: Projects
-subtitle: List of projects that I am proud of
-description: List of projects that I am proud of
-projects:
-  Vue Ecosystem:
-    - name: 'VueUse'
-      link: 'https://github.com/antfu/vueuse'
-      desc: 'Collection of Composition API utils for Vue 2 and 3'
-      icon: 'carbon:tool-box'
-    - name: 'Vue Demi'
-      link: 'https://github.com/antfu/vue-demi'
-      desc: 'Creates Universal Library for Vue 2 & 3'
-      icon: 'carbon:magic-wand'
-    - name: 'Vue Reactivity'
-      link: 'https://github.com/vue-reactivity'
-      desc: 'Reactivity utils set for @vue/reactivity'
-      icon: 'carbon:network-4'
-    - name: 'Vue Chemistry'
-      link: 'https://github.com/antfu/vue-chemistry'
-      desc: 'Reactified JavaScript functions for Vue'
-      icon: 'carbon:chemistry'
+title: movies - Thien Tran
+display: movies
+subtitle: movies that i've enjoyed
+description: movies that i've enjoyed or plan to read
+movies:
+  Fiction:
+    - name: 'Joker'
+      link: 'https://www.imdb.com/title/tt7286456/'
+      desc: 'you wouldnt get it'
+      icon: 'noto-joker'
     - name: 'ReactiVue'
       link: 'https://github.com/antfu/reactivue'
       desc: 'Use Vue Composition API in React components'
@@ -30,31 +18,16 @@ projects:
       desc: 'jQuery-like Vue Reactivity API'
       icon: 'tabler:currency-dollar'
 
-  Vite Ecosystem:
+  NonFiction:
     - name: 'Vitesse'
       link: 'https://github.com/antfu/vitesse'
       desc: 'Opinionated Vite Starter Template'
       icon: 'carbon:campsite'
-    - name: 'Vite Components'
-      link: 'https://github.com/antfu/vite-plugin-components'
-      desc: 'On-demand components auto importing for Vite'
-      icon: 'carbon:3d-mpr-toggle'
-    - name: 'Vite PWA'
-      link: 'https://github.com/antfu/vite-plugin-pwa'
-      desc: 'Zero-config PWA for Vite'
-      icon: 'carbon:tropical-storm'
-    - name: 'Vite SSG'
-      link: 'https://github.com/antfu/vite-ssg'
-      desc: 'Server-side generation for Vite'
-      icon: 'carbon:printer'
     - name: 'Vite Windi CSS'
       link: 'https://github.com/windicss/vite-plugin-windicss'
       desc: 'Windi CSS for Vite - on-demanded Tailwind CSS'
       icon: 'carbon:windy-strong'
-    - name: 'Vite Icons'
-      link: 'https://github.com/antfu/vite-plugin-icons'
-      desc: 'Access thousands of icons as Vue components in Vite'
-      icon: 'carbon:chart-point'
+
     - name: 'Vite Markdown'
       link: 'https://github.com/antfu/vite-plugin-md'
       desc: 'Markdown as components / components in Markdown'
@@ -63,15 +36,6 @@ projects:
       link: 'https://github.com/antfu/vite-plugin-shiki'
       desc: 'Shiki, a beautiful syntax hightlighter for Vite'
       icon: 'carbon:code'
-    - name: 'Vite PSVG'
-      link: 'https://github.com/antfu/vite-plugin-psvg'
-      desc: 'Programmable SVG for Vite'
-      icon: 'carbon:svg'
-    - name: 'Vite for VS Code'
-      link: 'https://github.com/antfu/vscode-vite'
-      desc: 'Take one step faster for Vite in VS Code'
-      icon: 'carbon:flash'
-
 
   Nuxt Ecosystem:
     - name: 'Vitesse Nuxt'
@@ -118,18 +82,6 @@ projects:
       link: 'https://cafe-cn.netlify.app/'
       desc: 'Web App for <a href="https://github.com/ElaWorkshop/awesome-cn-cafe" target="_blank">Awesome CN Café</a>'
       icon: 'carbon:cafe'
-    - name: '文言齋'
-      link: 'https://ide.wy-lang.org'
-      desc: 'Online IDE for wenyan-lang'
-      icon: 'carbon:template'
-    - name: 'BreadSplit'
-      link: 'https://app.breadsplit.com/'
-      desc: 'Group bills split made easy, fast and customizable'
-      icon: 'carbon:share-knowledge'
-    - name: 'BCP-47 tester'
-      link: 'https://bcp47.antfu.me/'
-      desc: 'Online BCP-47 Tester & Normalizer'
-      icon: 'carbon:earth-southeast-asia'
 
   TypeScript:
     - name: 'Type Challenges'
@@ -144,7 +96,7 @@ projects:
   Automations:
     - name: 'Knightly'
       link: 'https://github.com/knightlyjs/knightly'
-      desc: 'Nightly builds for projects and PRs'
+      desc: 'Nightly builds for movies and PRs'
       icon: 'carbon:haze-night'
     - name: 'Export Size Action'
       link: 'https://github.com/antfu/export-size-action'
@@ -190,10 +142,6 @@ projects:
       link: 'https://github.com/antfu/iroiro'
       desc: 'Beautiful colors lookup in CLI 色々な色'
       icon: 'carbon:color-palette'
-    - name: 'kaomo'
-      link: 'https://github.com/antfu/kaomo'
-      desc: 'Random kaomoji 顔文字 in CLI<br>( ´ ▽ ` )/'
-      icon: 'carbon:theater'
     - name: 'export-size'
       link: 'https://github.com/antfu/export-size'
       desc: 'Analysis bundle cost for each export of a package'
@@ -214,40 +162,10 @@ projects:
       link: 'https://github.com/antfu/git-ensure'
       desc: 'Ensure git status before continuing'
       icon: 'teenyicons:git-outline'
-
-  Maintaining:
-    - name: '@vue/composition-api'
-      link: 'https://github.com/vuejs/composition-api'
-      desc: 'Vue 2 Composition API plugin'
-      icon: 'carbon:chart-network'
     - name: 'Vite'
       link: 'https://github.com/vitejs/vite'
       desc: 'Native-ESM powered web dev build tool'
       icon: 'system-uicons:lightning'
-    - name: 'Windi CSS'
-      link: 'https://github.com/windicss/windicss'
-      desc: 'Next-generation Tailwind CSS compiler'
-      icon: 'carbon:windy-strong'
-    - name: '文言 wenyan-lang'
-      link: 'https://github.com/wenyan-lang/wenyan'
-      desc: 'A programming language for the ancient Chinese'
-      icon: 'carbon:translate'
-    - name: 'Min'
-      link: 'https://github.com/minbrowser/min'
-      desc: 'A fast, minimal browser that protects your privacy'
-      icon: 'carbon:circle-dash'
-
-  Windows:
-    - name: 'Live Draw'
-      link: 'https://github.com/antfu/live-draw'
-      desc: 'A tool allows you to draw on screen real-time'
-      icon: 'carbon:brush-freehand'
-
-  Toys:
-    - name: '1990 Script'
-      link: 'https://github.com/antfu/1990-script'
-      desc: 'Make your Github history back to 1990'
-      icon: 'carbon:time'
 ---
 
-<ListProjects :projects="frontmatter.projects"/>
+<ListMovies :movies="frontmatter.movies"/>
