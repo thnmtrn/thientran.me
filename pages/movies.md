@@ -24,11 +24,11 @@ movies:
       desc: 'Opinionated Vite Starter Template'
       icon: 'carbon:campsite'
     - name: 'Crazy Stupid Love'
-      link: 'https://github.com/windicss/vite-plugin-windicss'
+        link: 'https://github.com/windicss/vite-plugin-windicss'
       desc: 'Windi CSS for Vite - on-demanded Tailwind CSS'
       icon: 'carbon:windy-strong'
 
-    - name: 'Vite Markdown'
+    - name: 'Shawshank Redemption'
       link: 'https://github.com/antfu/vite-plugin-md'
       desc: 'Markdown as components / components in Markdown'
       icon: 'carbon:document'
@@ -38,13 +38,13 @@ movies:
       icon: 'carbon:code'
 
   Nuxt Ecosystem:
-    - name: 'Vitesse Nuxt'
+    - name: 'Batman Begins'
       link: 'https://github.com/antfu/vitesse-nuxt'
       desc: 'Opinionated Vite + Nuxt 2 Starter Template'
       icon: 'mdi:nuxt'
 
   Design / Compform:
-    - name: '100 Day'
+    - name: '500 Days of Summer'
       link: 'https://100.antfu.me/'
       desc: 'My 100 day challenge of exploring design, compform, and new things.'
       icon: 'carbon:app-switcher'
