@@ -33,7 +33,7 @@ const { movies } = defineProps<{ movies: any }>()
   </template>
   <div class="markdown mt-10">
     <p class="opacity-75">
-      <em>Thanks for getting intersted in my works! If like them or find them useful, consider<a href="https://github.com/sponsors/thnmtrn" target="_blank" rel="nofollow noopener noreferrer">&nbsp;sponsoring me&nbsp;</a>to support me keeping them sustainable. Cheers! :)</em>
+      <em>Thanks for checking out my movies reccomendations.</em>
     </p>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="text-xl mt-6 self-center">
+  <nav class="text-xl mt-6">
     <a
       class="icon-btn text-purple-500 mx-2"
       rel="noreferrer"

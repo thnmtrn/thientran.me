@@ -3,7 +3,7 @@ import { ref, computed } from 'vue';
 import { useRouter } from 'vue-router';
 import { formatDate } from '/~/logics';
 
-const tag = ref('tech');
+const tag = ref('code');
 const router = useRouter();
 const routes = router
   .getRoutes()
@@ -21,21 +21,41 @@ const posts = computed(() =>
 </script>
 
 <template>
-  <h3 class=''>#tags</h3>
   <div class="">
+    <span
+      class="opacity-50 mr-2 cursor-default text-normal"
+      :class="{ 'opacity-100': tag === 'code' }"
+      @click="tag = 'code'"
+    >
+      #code
+    </span>
     <span
       class="opacity-50 mr-2 cursor-default text-normal"
       :class="{ 'opacity-100': tag === 'tech' }"
       @click="tag = 'tech'"
     >
-      tech
+      #tech
     </span>
     <span
       class="opacity-50 mr-2 cursor-default text-normal"
       :class="{ 'opacity-100': tag === 'personal' }"
       @click="tag = 'personal'"
     >
-      personal
+      #personal
+    </span>
+    <span
+      class="opacity-50 mr-2 cursor-default text-normal"
+      :class="{ 'opacity-100': tag === 'fitness' }"
+      @click="tag = 'fitness'"
+    >
+      #fitness
+    </span>
+    <span
+      class="opacity-50 mr-2 cursor-default text-normal"
+      :class="{ 'opacity-100': tag === 'random' }"
+      @click="tag = 'random'"
+    >
+      #random
     </span>
   </div>
 
