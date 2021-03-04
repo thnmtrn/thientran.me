@@ -5,17 +5,19 @@ subtitle: books that i've enjoyed
 description: Books that i've enjoyed or plan to read
 books:
   Fiction:
-    - name: 'Lord of The Rings'
+  
+    - name: 'Pachinko'
       link: 'https://goodreads.com'
-      desc: 'Collection of Composition API utils for Vue 2 and 3'
+      desc: 'hun lee su 3'
       icon: 'carbon:tool-box'
-    - name: 'ReactiVue'
+      
+    - name: 'Atomic Habits'
       link: 'https://github.com/antfu/reactivue'
       desc: 'Use Vue Composition API in React components'
-      icon: 'ri:reactjs-fill'
-    - name: 'v-dollar'
+      icon: 'carbon:tool-box'
+    - name: 'Educated'
       link: 'https://github.com/antfu/v-dollar'
-      desc: 'jQuery-like Vue Reactivity API'
+      desc: 'Tara Westover'
       icon: 'tabler:currency-dollar'
 
   NonFiction:
