@@ -16,7 +16,7 @@ async function run() {
   const redirects: [string, string, number][] = []
 
   for (const repo of repos) {
-    if (['test', 'static', 'repro', 'issue', 'resume', 'antfu'].some(i => repo.name.includes(i)))
+    if (['test', 'static', 'repro', 'issue', 'resume', 'thnmtrn'].some(i => repo.name.includes(i)))
       continue
     if (!repo.private && !repo.fork && !repo.archived)
       redirects.push([`/${repo.name}`, repo.url.replace('api.github.com/repos', 'github.com'), 302])

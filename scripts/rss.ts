@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 import MarkdownIt from 'markdown-it'
 import { Feed } from 'feed'
 
-const DOMAIN = 'https://antfu.me'
+const DOMAIN = 'https://thientran.me'
 
 async function run() {
   const markdown = MarkdownIt({
@@ -35,8 +35,8 @@ async function run() {
             content: html,
             author: [
               {
-                name: 'Anthony Fu',
-                email: 'hi@antfu.me',
+                name: 'Thien Tran',
+                email: 'hi@thientran.me',
                 link: DOMAIN,
               },
             ],
@@ -50,20 +50,20 @@ async function run() {
   const feed = new Feed({
     title: 'Anthony Fu',
     description: 'Blog of Anthony Fu',
-    id: 'https://antfu.me/',
-    link: 'https://antfu.me/',
-    image: 'https://antfu.me/avatar.png',
-    favicon: 'https://antfu.me/logo.png',
-    copyright: 'CC BY-NC 4.0 2021 © Anthony Fu',
+    id: 'https://thientran.me/',
+    link: 'https://thientran.me/',
+    image: 'https://thientran.me/avatar.png',
+    favicon: 'https://thientran.me/logo.png',
+    copyright: 'CC BY-NC 4.0 2021 © Thien Tran',
     feedLinks: {
-      json: 'https://antfu.me/feed.json',
-      atom: 'https://antfu.me/feed.atom',
-      rss: 'https://antfu.me/feed.xml',
+      json: 'https://thientran.me/feed.json',
+      atom: 'https://thientran.me/feed.atom',
+      rss: 'https://thientran.me/feed.xml',
     },
     author: {
       name: 'Anthony Fu',
-      email: 'hi@antfu.me',
-      link: 'https://antfu.me',
+      email: 'hi@thientran.me',
+      link: 'https://thientran.me',
     },
   })
 
