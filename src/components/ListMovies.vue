@@ -15,14 +15,14 @@ const { movies } = defineProps<{ movies: any }>()
         :key="idx"
         class="item relative flex"
         :href="item.link"
-        target="_blank"
+        target="_self"
         :class="!item.link ? &quot;opacity-0 pointer-events-none h-0 -mt-8 -mb-4&quot; : &quot;&quot;"
       >
         <div v-if="item.icon" class="pt-2 pr-5">
           <Icon class="text-3xl opacity-50" :icon="item.icon || 'carbon:unknown'" />
         </div>
         <div class="flex-auto">
-          <div cla ss="text-normal">{{ item.name }}</div>
+          <div class="text-normal hover:text-blue-400">{{ item.name }}</div>
           <div
             class="desc text-sm opacity-50 font-normal"
             v-html="item.desc"

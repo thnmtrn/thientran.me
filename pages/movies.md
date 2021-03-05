@@ -1,12 +1,12 @@
 ---
-title: movies - Thien Tran
-display: movies
-subtitle: movies that i've enjoyed
-description: movies that i've enjoyed or plan to read
+title: Movies - Thien Tran
+display: Movies
+subtitle: movie recomendations
+description: movie recomendations
 movies:
-  Fiction:
+  2020:
     - name: 'Joker'
-      link: 'https://www.imdb.com/title/tt7286456/'
+      link: '/movies'
       desc: 'you wouldnt get it'
       icon: 'noto-joker'
     - name: 'Infinity War'
@@ -52,7 +52,6 @@ movies:
       link: '/movies'
       desc: 'please write description'
       icon: 'carbon:app-switcher'
-
 ---
 
 <ListMovies :movies="frontmatter.movies"/>

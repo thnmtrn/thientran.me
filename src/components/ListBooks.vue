@@ -15,7 +15,7 @@ const { books } = defineProps<{ books: any }>()
         :key="idx"
         class="item relative flex"
         :href="item.link"
-        target="_blank"
+        target="_self"
         :class="!item.link ? &quot;opacity-0 pointer-events-none h-0 -mt-8 -mb-4&quot; : &quot;&quot;"
       >
         <div v-if="item.icon" class="pt-2 pr-5">

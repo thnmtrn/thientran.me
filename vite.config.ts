@@ -1,4 +1,4 @@
-import { resolve } from 'path'
+import path, { resolve } from 'path'
 import { UserConfig } from 'vite'
 import fs from 'fs-extra'
 import Pages from 'vite-plugin-pages'
@@ -11,6 +11,8 @@ import Prism from 'markdown-it-prism'
 import matter from 'gray-matter'
 import WindiCSS from 'vite-plugin-windicss'
 import anchor from 'markdown-it-anchor'
+import vueI18n from '@intlify/vite-plugin-vue-i18n'
+
 // @ts-expect-error
 import markdownAttr from 'markdown-it-link-attributes'
 import { slugify } from './scripts/slugify'
@@ -46,6 +48,14 @@ const config: UserConfig = {
   plugins: [
     Vue({
       include: [/\.vue$/, /\.md$/],
+    }),
+
+    vueI18n({
+      // if you want to use Vue I18n Legacy API, you need to set `compositionOnly: false`
+      // compositionOnly: false,
+
+      // you need to set i18n resource including paths !
+      include: path.resolve(__dirname, './path/to/src/locales/**')
     }),
 
     Pages({
