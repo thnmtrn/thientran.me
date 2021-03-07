@@ -16,13 +16,13 @@ movies:
     - name: 'Parasite'
       link: '/movies'
       desc: 'please write description'
-      icon: 'tabler:currency-dollar'
+      icon: 'la:spider'
 
   NonFiction:
     - name: 'Inception'
       link: '/movies'
       desc: 'please write description'
-      icon: 'carbon:campsite'
+      icon: 'typcn:spiral'
     - name: 'Crazy Stupid Love'
       link: '/movies'
       desc: 'please write description'
@@ -31,27 +31,27 @@ movies:
     - name: 'Shawshank Redemption'
       link: '/movies'
       desc: 'please write description'
-      icon: 'carbon:document'
-    - name: 'Vite Shiki'
+      icon: 'si-glyph-person-prison'
+    - name: 'Wolf of Wallstreet'
       link: '/movies'
       desc: 'please write description'
-      icon: 'carbon:code'
+      icon: 'tabler:currency-dollar'
 
   Old Movies:
     - name: 'Batman Begins'
       link: '/movies'
       desc: 'please write description'
-      icon: 'mdi:nuxt'
+      icon: 'carbon-bat'
 
   Comedy:
     - name: '500 Days of Summer'
       link: '/movies'
       desc: 'please write description'
-      icon: 'carbon:app-switcher'
-    - name: 'Codecember'
+      icon: 'mdi:flower-outline'
+    - name: 'Spiderman'
       link: '/movies'
       desc: 'please write description'
-      icon: 'carbon:app-switcher'
+      icon: 'mdi:spider-thread'
 ---
 
 <ListMovies :movies="frontmatter.movies"/>
