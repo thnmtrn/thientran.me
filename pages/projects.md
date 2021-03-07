@@ -21,7 +21,7 @@ projects:
       link: 'https://coachthai.com'
       desc: 'built with react, nextjs, mongoosedb, wip'
       icon: 'carbon:tool-box'
-    - name: 'annie's nails spa'
+    - name: "annie's nail spa"
       link: 'https://annienailsspa.com'
       desc: 'built with react, nextjs, mongoosedb, wip'
       icon: 'carbon:tool-box'
@@ -45,8 +45,6 @@ projects:
       link: 'https://github.com/thnmtrn/snake'
       desc: 'vanilla javascript remake of a classic'
       icon: 'carbon:tool-box'
-
-
 ---
 
 <ListProjects :projects="frontmatter.projects"/>
